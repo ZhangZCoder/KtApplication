@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="CustomTextView">
+        <attr name="typeface">
+            <enum name="fz_db1_gb" value="0"/>
+            <enum name="fz_l_gb" value="1"/>
+            <enum name="lobster" value="2"/>
+        </attr>
+    </declare-styleable>
+</resources>
