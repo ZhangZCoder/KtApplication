@@ -28,7 +28,7 @@
 
     <com.kt.ktapplication.view.AppTextView
         android:id="@+id/tvQuestion"
-        android:layout_width="wrap_content"
+        android:layout_width="0dp"
         android:layout_height="wrap_content"
         app:layout_constraintTop_toBottomOf="@id/gsyPlayer"
         app:layout_constraintLeft_toLeftOf="parent"
@@ -81,6 +81,9 @@
          android:layout_marginLeft="20dp"
          android:layout_marginBottom="30dp"
          android:textColor="@color/white"
+         android:gravity="center_vertical"
+         android:padding="5dp"
+         android:drawablePadding="2dp"
          ></TextView>
 
     <TextView
@@ -93,6 +96,9 @@
         android:drawableLeft="@drawable/ic_action_share_without_padding"
         android:layout_marginBottom="30dp"
         android:textColor="@color/white"
+        android:gravity="center_vertical"
+        android:padding="5dp"
+        android:drawablePadding="2dp"
         ></TextView>
     <TextView
         android:id="@+id/tvReply"
@@ -105,6 +111,9 @@
         android:layout_marginLeft="5dp"
         android:text="缓存"
         android:textColor="@color/white"
+        android:gravity="center_vertical"
+        android:padding="5dp"
+        android:drawablePadding="2dp"
         ></TextView>
 
     <TextView
@@ -116,6 +125,9 @@
         android:layout_marginLeft="5dp"
         android:layout_marginBottom="30dp"
         android:textColor="@color/white"
+        android:gravity="center_vertical"
+        android:padding="5dp"
+        android:drawablePadding="2dp"
         ></TextView>
 
 </androidx.constraintlayout.widget.ConstraintLayout>

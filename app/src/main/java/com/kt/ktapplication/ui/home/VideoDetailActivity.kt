@@ -33,8 +33,6 @@ class VideoDetailActivity : AppCompatActivity() {
         }
     }
 
-
-
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_video_detail)
@@ -43,7 +41,6 @@ class VideoDetailActivity : AppCompatActivity() {
     }
 
     private fun prepareVideo(){
-//        ivBackground
         ImageLoadUtils.displayHigh(this, ivBackground, videoBean.blurred!!)
         tvQuestion.text = videoBean.title
         tvTime.text = videoBean.description
